@@ -25,7 +25,7 @@ class DogCat(object):
             Dense(2, activation='softmax'),
         ])
         self.optim = optimizers.SGD(lr=1e-3, decay=1e-6, momentum=0.9, nesterov=True)
-        print('the end of the class')
+        print('this is the experiment branch')
 
     def _fit(self, generator, nb_epochs=10, batch_size=32, nb_images=25000):
         # train network
